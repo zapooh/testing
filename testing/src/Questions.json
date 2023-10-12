@@ -1,0 +1,53 @@
+{
+    "questions": [
+      {
+        "title": "Hvilket rammeverk er ofte brukt for testing i React?",
+        "answers": [
+          { "answer": "Mocha" },
+          { "answer": "Jest", "correct": true },
+          { "answer": "Karma" },
+          { "answer": "Cypress" }
+        ],
+        "helper": {
+          "text": "Jest er et populært testing rammeverk som ofte blir brukt sammen med React for enhetstesting og integrasjonstesting."
+        }
+      },
+      {
+        "title": "Hva tester en 'Snapshot' test i Jest?",
+        "answers": [
+          { "answer": "At komponenter rendrer konsistent", "correct": true },
+          { "answer": "At funksjoner returnerer riktig output" },
+          { "answer": "At nettsiden laster raskt nok" },
+          { "answer": "At det ikke er noen konsollfeil" }
+        ],
+        "helper": {
+          "text": "Snapshot testing hjelper deg med å sørge for at din UI ikke endrer seg uventet ved å ta et 'snapshot' av det og sammenligne med en referanse."
+        }
+      },
+      {
+        "title": "Hva er hovedmålet med enhetstesting i React?",
+        "answers": [
+          { "answer": "Å teste enkeltfunksjoner isolert", "correct": true },
+          { "answer": "Å teste hele applikasjonen samlet" },
+          { "answer": "Å teste nettverkskall" },
+          { "answer": "Å teste brukeropplevelsen" }
+        ],
+        "helper": {
+          "text": "Enhetstesting handler om å teste de minste isolerte delene (enhetene) av applikasjonen, som ofte er individuelle funksjoner eller komponenter."
+        }
+      },
+      {
+        "title": "Hvilket utsagn om 'Enzyme' er korrekt?",
+        "answers": [
+          { "answer": "Enzyme er utdatert og ikke støttet av React teamet" },
+          { "answer": "Enzyme kan kun brukes for end-til-end testing" },
+          { "answer": "Enzyme er en JavaScript testing utility for React som gjør det enklere å teste React komponenters output", "correct": true },
+          { "answer": "Enzyme er det offisielle testingbiblioteket for React" }
+        ],
+        "helper": {
+          "text": "Enzyme, utviklet av Airbnb, er en populær testing utility for React som gjør det mulig å 'shallow' rendrer komponenter og se deres output."
+        }
+      }
+    ]
+  }
+  
